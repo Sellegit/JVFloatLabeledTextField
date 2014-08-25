@@ -7,150 +7,189 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		30EAFD781992F1EA00E71154 /* UniversalLib */ = {
+		326CAF7319AB72AB00422AE7 /* Alltargets */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 30EAFD791992F1EA00E71154 /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildConfigurationList = 326CAF7419AB72AB00422AE7 /* Build configuration list for PBXAggregateTarget "Alltargets" */;
 			buildPhases = (
-				30EAFD7C1992F21A00E71154 /* ShellScript */,
+				326CAF7719AB72B700422AE7 /* ShellScript */,
 			);
 			dependencies = (
 			);
-			name = UniversalLib;
-			productName = UniversalLib;
+			name = Alltargets;
+			productName = Alltargets;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		30EAFD4A1992F1C700E71154 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EAFD491992F1C700E71154 /* Foundation.framework */; };
-		30EAFD581992F1C700E71154 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EAFD571992F1C700E71154 /* XCTest.framework */; };
-		30EAFD591992F1C700E71154 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EAFD491992F1C700E71154 /* Foundation.framework */; };
-		30EAFD5B1992F1C700E71154 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EAFD5A1992F1C700E71154 /* UIKit.framework */; };
-		30EAFD5E1992F1C700E71154 /* libJVFloatLabeledTextFieldLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EAFD461992F1C700E71154 /* libJVFloatLabeledTextFieldLib.a */; };
-		30EAFD751992F1DD00E71154 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EAFD701992F1DD00E71154 /* JVFloatLabeledTextField.m */; };
-		30EAFD761992F1DD00E71154 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EAFD721992F1DD00E71154 /* JVFloatLabeledTextView.m */; };
-		30EAFD771992F1DD00E71154 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EAFD741992F1DD00E71154 /* NSString+TextDirectionality.m */; };
+		326CAF4419AB71DF00422AE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CAF4319AB71DF00422AE7 /* Foundation.framework */; };
+		326CAF4919AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 326CAF4819AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.h */; };
+		326CAF4B19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CAF4A19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.m */; };
+		326CAF5219AB71DF00422AE7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CAF5119AB71DF00422AE7 /* XCTest.framework */; };
+		326CAF5319AB71DF00422AE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CAF4319AB71DF00422AE7 /* Foundation.framework */; };
+		326CAF5519AB71DF00422AE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CAF5419AB71DF00422AE7 /* UIKit.framework */; };
+		326CAF5819AB71DF00422AE7 /* libJVFloatLabeledTextFieldLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CAF4019AB71DF00422AE7 /* libJVFloatLabeledTextFieldLib.a */; };
+		326CAF5E19AB71DF00422AE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 326CAF5C19AB71DF00422AE7 /* InfoPlist.strings */; };
+		326CAF6019AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CAF5F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.m */; };
+		326CAF7019AB71FB00422AE7 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CAF6B19AB71FB00422AE7 /* JVFloatLabeledTextField.m */; };
+		326CAF7119AB71FB00422AE7 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CAF6D19AB71FB00422AE7 /* JVFloatLabeledTextView.m */; };
+		326CAF7219AB71FB00422AE7 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CAF6F19AB71FB00422AE7 /* NSString+TextDirectionality.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		30EAFD5C1992F1C700E71154 /* PBXContainerItemProxy */ = {
+		326CAF5619AB71DF00422AE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 30EAFD3E1992F1C700E71154 /* Project object */;
+			containerPortal = 326CAF3819AB71DF00422AE7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 30EAFD451992F1C700E71154;
+			remoteGlobalIDString = 326CAF3F19AB71DF00422AE7;
 			remoteInfo = JVFloatLabeledTextFieldLib;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		30EAFD441992F1C700E71154 /* CopyFiles */ = {
+		326CAF3E19AB71DF00422AE7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				326CAF4919AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		30EAFD461992F1C700E71154 /* libJVFloatLabeledTextFieldLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJVFloatLabeledTextFieldLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		30EAFD491992F1C700E71154 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		30EAFD4D1992F1C700E71154 /* JVFloatLabeledTextFieldLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextFieldLib-Prefix.pch"; sourceTree = "<group>"; };
-		30EAFD561992F1C700E71154 /* JVFloatLabeledTextFieldLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVFloatLabeledTextFieldLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		30EAFD571992F1C700E71154 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		30EAFD5A1992F1C700E71154 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		30EAFD6F1992F1DD00E71154 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextField.h; path = ../../JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.h; sourceTree = "<group>"; };
-		30EAFD701992F1DD00E71154 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextField.m; path = ../../JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.m; sourceTree = "<group>"; };
-		30EAFD711992F1DD00E71154 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextView.h; path = ../../JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.h; sourceTree = "<group>"; };
-		30EAFD721992F1DD00E71154 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextView.m; path = ../../JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.m; sourceTree = "<group>"; };
-		30EAFD731992F1DD00E71154 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+TextDirectionality.h"; path = "../../JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.h"; sourceTree = "<group>"; };
-		30EAFD741992F1DD00E71154 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+TextDirectionality.m"; path = "../../JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		326CAF4019AB71DF00422AE7 /* libJVFloatLabeledTextFieldLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJVFloatLabeledTextFieldLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		326CAF4319AB71DF00422AE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		326CAF4719AB71DF00422AE7 /* JVFloatLabeledTextFieldLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextFieldLib-Prefix.pch"; sourceTree = "<group>"; };
+		326CAF4819AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextFieldLib.h; sourceTree = "<group>"; };
+		326CAF4A19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextFieldLib.m; sourceTree = "<group>"; };
+		326CAF5019AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVFloatLabeledTextFieldLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		326CAF5119AB71DF00422AE7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		326CAF5419AB71DF00422AE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		326CAF5B19AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JVFloatLabeledTextFieldLibTests-Info.plist"; sourceTree = "<group>"; };
+		326CAF5D19AB71DF00422AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		326CAF5F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextFieldLibTests.m; sourceTree = "<group>"; };
+		326CAF6A19AB71FB00422AE7 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		326CAF6B19AB71FB00422AE7 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		326CAF6C19AB71FB00422AE7 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		326CAF6D19AB71FB00422AE7 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		326CAF6E19AB71FB00422AE7 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		326CAF6F19AB71FB00422AE7 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30EAFD431992F1C700E71154 /* Frameworks */ = {
+		326CAF3D19AB71DF00422AE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30EAFD4A1992F1C700E71154 /* Foundation.framework in Frameworks */,
+				326CAF4419AB71DF00422AE7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30EAFD531992F1C700E71154 /* Frameworks */ = {
+		326CAF4D19AB71DF00422AE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30EAFD5E1992F1C700E71154 /* libJVFloatLabeledTextFieldLib.a in Frameworks */,
-				30EAFD581992F1C700E71154 /* XCTest.framework in Frameworks */,
-				30EAFD5B1992F1C700E71154 /* UIKit.framework in Frameworks */,
-				30EAFD591992F1C700E71154 /* Foundation.framework in Frameworks */,
+				326CAF5819AB71DF00422AE7 /* libJVFloatLabeledTextFieldLib.a in Frameworks */,
+				326CAF5219AB71DF00422AE7 /* XCTest.framework in Frameworks */,
+				326CAF5519AB71DF00422AE7 /* UIKit.framework in Frameworks */,
+				326CAF5319AB71DF00422AE7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30EAFD3D1992F1C700E71154 = {
+		326CAF3719AB71DF00422AE7 = {
 			isa = PBXGroup;
 			children = (
-				30EAFD4B1992F1C700E71154 /* JVFloatLabeledTextFieldLib */,
-				30EAFD481992F1C700E71154 /* Frameworks */,
-				30EAFD471992F1C700E71154 /* Products */,
+				326CAF6919AB71FB00422AE7 /* JVFloatLabeledTextField */,
+				326CAF4519AB71DF00422AE7 /* JVFloatLabeledTextFieldLib */,
+				326CAF5919AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests */,
+				326CAF4219AB71DF00422AE7 /* Frameworks */,
+				326CAF4119AB71DF00422AE7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		30EAFD471992F1C700E71154 /* Products */ = {
+		326CAF4119AB71DF00422AE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30EAFD461992F1C700E71154 /* libJVFloatLabeledTextFieldLib.a */,
-				30EAFD561992F1C700E71154 /* JVFloatLabeledTextFieldLibTests.xctest */,
+				326CAF4019AB71DF00422AE7 /* libJVFloatLabeledTextFieldLib.a */,
+				326CAF5019AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		30EAFD481992F1C700E71154 /* Frameworks */ = {
+		326CAF4219AB71DF00422AE7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				30EAFD491992F1C700E71154 /* Foundation.framework */,
-				30EAFD571992F1C700E71154 /* XCTest.framework */,
-				30EAFD5A1992F1C700E71154 /* UIKit.framework */,
+				326CAF4319AB71DF00422AE7 /* Foundation.framework */,
+				326CAF5119AB71DF00422AE7 /* XCTest.framework */,
+				326CAF5419AB71DF00422AE7 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		30EAFD4B1992F1C700E71154 /* JVFloatLabeledTextFieldLib */ = {
+		326CAF4519AB71DF00422AE7 /* JVFloatLabeledTextFieldLib */ = {
 			isa = PBXGroup;
 			children = (
-				30EAFD6F1992F1DD00E71154 /* JVFloatLabeledTextField.h */,
-				30EAFD701992F1DD00E71154 /* JVFloatLabeledTextField.m */,
-				30EAFD711992F1DD00E71154 /* JVFloatLabeledTextView.h */,
-				30EAFD721992F1DD00E71154 /* JVFloatLabeledTextView.m */,
-				30EAFD731992F1DD00E71154 /* NSString+TextDirectionality.h */,
-				30EAFD741992F1DD00E71154 /* NSString+TextDirectionality.m */,
-				30EAFD4C1992F1C700E71154 /* Supporting Files */,
+				326CAF4819AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.h */,
+				326CAF4A19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.m */,
+				326CAF4619AB71DF00422AE7 /* Supporting Files */,
 			);
 			path = JVFloatLabeledTextFieldLib;
 			sourceTree = "<group>";
 		};
-		30EAFD4C1992F1C700E71154 /* Supporting Files */ = {
+		326CAF4619AB71DF00422AE7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				30EAFD4D1992F1C700E71154 /* JVFloatLabeledTextFieldLib-Prefix.pch */,
+				326CAF4719AB71DF00422AE7 /* JVFloatLabeledTextFieldLib-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		326CAF5919AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				326CAF5F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.m */,
+				326CAF5A19AB71DF00422AE7 /* Supporting Files */,
+			);
+			path = JVFloatLabeledTextFieldLibTests;
+			sourceTree = "<group>";
+		};
+		326CAF5A19AB71DF00422AE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				326CAF5B19AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests-Info.plist */,
+				326CAF5C19AB71DF00422AE7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		326CAF6919AB71FB00422AE7 /* JVFloatLabeledTextField */ = {
+			isa = PBXGroup;
+			children = (
+				326CAF6A19AB71FB00422AE7 /* JVFloatLabeledTextField.h */,
+				326CAF6B19AB71FB00422AE7 /* JVFloatLabeledTextField.m */,
+				326CAF6C19AB71FB00422AE7 /* JVFloatLabeledTextView.h */,
+				326CAF6D19AB71FB00422AE7 /* JVFloatLabeledTextView.m */,
+				326CAF6E19AB71FB00422AE7 /* NSString+TextDirectionality.h */,
+				326CAF6F19AB71FB00422AE7 /* NSString+TextDirectionality.m */,
+			);
+			path = JVFloatLabeledTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30EAFD451992F1C700E71154 /* JVFloatLabeledTextFieldLib */ = {
+		326CAF3F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30EAFD691992F1C700E71154 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLib" */;
+			buildConfigurationList = 326CAF6319AB71DF00422AE7 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLib" */;
 			buildPhases = (
-				30EAFD421992F1C700E71154 /* Sources */,
-				30EAFD431992F1C700E71154 /* Frameworks */,
-				30EAFD441992F1C700E71154 /* CopyFiles */,
+				326CAF3C19AB71DF00422AE7 /* Sources */,
+				326CAF3D19AB71DF00422AE7 /* Frameworks */,
+				326CAF3E19AB71DF00422AE7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -158,67 +197,68 @@
 			);
 			name = JVFloatLabeledTextFieldLib;
 			productName = JVFloatLabeledTextFieldLib;
-			productReference = 30EAFD461992F1C700E71154 /* libJVFloatLabeledTextFieldLib.a */;
+			productReference = 326CAF4019AB71DF00422AE7 /* libJVFloatLabeledTextFieldLib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		30EAFD551992F1C700E71154 /* JVFloatLabeledTextFieldLibTests */ = {
+		326CAF4F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30EAFD6C1992F1C700E71154 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLibTests" */;
+			buildConfigurationList = 326CAF6619AB71DF00422AE7 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLibTests" */;
 			buildPhases = (
-				30EAFD521992F1C700E71154 /* Sources */,
-				30EAFD531992F1C700E71154 /* Frameworks */,
-				30EAFD541992F1C700E71154 /* Resources */,
+				326CAF4C19AB71DF00422AE7 /* Sources */,
+				326CAF4D19AB71DF00422AE7 /* Frameworks */,
+				326CAF4E19AB71DF00422AE7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				30EAFD5D1992F1C700E71154 /* PBXTargetDependency */,
+				326CAF5719AB71DF00422AE7 /* PBXTargetDependency */,
 			);
 			name = JVFloatLabeledTextFieldLibTests;
 			productName = JVFloatLabeledTextFieldLibTests;
-			productReference = 30EAFD561992F1C700E71154 /* JVFloatLabeledTextFieldLibTests.xctest */;
+			productReference = 326CAF5019AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		30EAFD3E1992F1C700E71154 /* Project object */ = {
+		326CAF3819AB71DF00422AE7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = Sellegit;
+				ORGANIZATIONNAME = "Cambridge Yang";
 			};
-			buildConfigurationList = 30EAFD411992F1C700E71154 /* Build configuration list for PBXProject "JVFloatLabeledTextFieldLib" */;
+			buildConfigurationList = 326CAF3B19AB71DF00422AE7 /* Build configuration list for PBXProject "JVFloatLabeledTextFieldLib" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 30EAFD3D1992F1C700E71154;
-			productRefGroup = 30EAFD471992F1C700E71154 /* Products */;
+			mainGroup = 326CAF3719AB71DF00422AE7;
+			productRefGroup = 326CAF4119AB71DF00422AE7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30EAFD451992F1C700E71154 /* JVFloatLabeledTextFieldLib */,
-				30EAFD551992F1C700E71154 /* JVFloatLabeledTextFieldLibTests */,
-				30EAFD781992F1EA00E71154 /* UniversalLib */,
+				326CAF3F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib */,
+				326CAF4F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests */,
+				326CAF7319AB72AB00422AE7 /* Alltargets */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30EAFD541992F1C700E71154 /* Resources */ = {
+		326CAF4E19AB71DF00422AE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				326CAF5E19AB71DF00422AE7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		30EAFD7C1992F21A00E71154 /* ShellScript */ = {
+		326CAF7719AB72B700422AE7 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,40 +269,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target JVFloatLabeledTextFieldLib ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target JVFloatLabeledTextFieldLib -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target ${PROJECT_NAME} ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\"\nBUILD_ROOT=\"${BUILD_ROOT}\" xcodebuild -target ${PROJECT_NAME} -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		30EAFD421992F1C700E71154 /* Sources */ = {
+		326CAF3C19AB71DF00422AE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30EAFD761992F1DD00E71154 /* JVFloatLabeledTextView.m in Sources */,
-				30EAFD751992F1DD00E71154 /* JVFloatLabeledTextField.m in Sources */,
-				30EAFD771992F1DD00E71154 /* NSString+TextDirectionality.m in Sources */,
+				326CAF7219AB71FB00422AE7 /* NSString+TextDirectionality.m in Sources */,
+				326CAF7119AB71FB00422AE7 /* JVFloatLabeledTextView.m in Sources */,
+				326CAF7019AB71FB00422AE7 /* JVFloatLabeledTextField.m in Sources */,
+				326CAF4B19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30EAFD521992F1C700E71154 /* Sources */ = {
+		326CAF4C19AB71DF00422AE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				326CAF6019AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		30EAFD5D1992F1C700E71154 /* PBXTargetDependency */ = {
+		326CAF5719AB71DF00422AE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 30EAFD451992F1C700E71154 /* JVFloatLabeledTextFieldLib */;
-			targetProxy = 30EAFD5C1992F1C700E71154 /* PBXContainerItemProxy */;
+			target = 326CAF3F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib */;
+			targetProxy = 326CAF5619AB71DF00422AE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		326CAF5C19AB71DF00422AE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326CAF5D19AB71DF00422AE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		30EAFD671992F1C700E71154 /* Debug */ = {
+		326CAF6119AB71DF00422AE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -299,7 +352,7 @@
 			};
 			name = Debug;
 		};
-		30EAFD681992F1C700E71154 /* Release */ = {
+		326CAF6219AB71DF00422AE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,7 +383,7 @@
 			};
 			name = Release;
 		};
-		30EAFD6A1992F1C700E71154 /* Debug */ = {
+		326CAF6419AB71DF00422AE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/JVFloatLabeledTextFieldLib.dst;
@@ -342,7 +395,7 @@
 			};
 			name = Debug;
 		};
-		30EAFD6B1992F1C700E71154 /* Release */ = {
+		326CAF6519AB71DF00422AE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/JVFloatLabeledTextFieldLib.dst;
@@ -354,7 +407,7 @@
 			};
 			name = Release;
 		};
-		30EAFD6D1992F1C700E71154 /* Debug */ = {
+		326CAF6719AB71DF00422AE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -374,7 +427,7 @@
 			};
 			name = Debug;
 		};
-		30EAFD6E1992F1C700E71154 /* Release */ = {
+		326CAF6819AB71DF00422AE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -390,14 +443,14 @@
 			};
 			name = Release;
 		};
-		30EAFD7A1992F1EA00E71154 /* Debug */ = {
+		326CAF7519AB72AB00422AE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		30EAFD7B1992F1EA00E71154 /* Release */ = {
+		326CAF7619AB72AB00422AE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,40 +460,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30EAFD411992F1C700E71154 /* Build configuration list for PBXProject "JVFloatLabeledTextFieldLib" */ = {
+		326CAF3B19AB71DF00422AE7 /* Build configuration list for PBXProject "JVFloatLabeledTextFieldLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30EAFD671992F1C700E71154 /* Debug */,
-				30EAFD681992F1C700E71154 /* Release */,
+				326CAF6119AB71DF00422AE7 /* Debug */,
+				326CAF6219AB71DF00422AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30EAFD691992F1C700E71154 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLib" */ = {
+		326CAF6319AB71DF00422AE7 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30EAFD6A1992F1C700E71154 /* Debug */,
-				30EAFD6B1992F1C700E71154 /* Release */,
+				326CAF6419AB71DF00422AE7 /* Debug */,
+				326CAF6519AB71DF00422AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		30EAFD6C1992F1C700E71154 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLibTests" */ = {
+		326CAF6619AB71DF00422AE7 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLibTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30EAFD6D1992F1C700E71154 /* Debug */,
-				30EAFD6E1992F1C700E71154 /* Release */,
+				326CAF6719AB71DF00422AE7 /* Debug */,
+				326CAF6819AB71DF00422AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		30EAFD791992F1EA00E71154 /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+		326CAF7419AB72AB00422AE7 /* Build configuration list for PBXAggregateTarget "Alltargets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30EAFD7A1992F1EA00E71154 /* Debug */,
-				30EAFD7B1992F1EA00E71154 /* Release */,
+				326CAF7519AB72AB00422AE7 /* Debug */,
+				326CAF7619AB72AB00422AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 30EAFD3E1992F1C700E71154 /* Project object */;
+	rootObject = 326CAF3819AB71DF00422AE7 /* Project object */;
 }
