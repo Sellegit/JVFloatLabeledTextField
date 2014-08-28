@@ -7,175 +7,175 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		326CAF7319AB72AB00422AE7 /* Alltargets */ = {
+		326CB00419AB8DCB00422AE7 /* All */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 326CAF7419AB72AB00422AE7 /* Build configuration list for PBXAggregateTarget "Alltargets" */;
+			buildConfigurationList = 326CB00519AB8DCB00422AE7 /* Build configuration list for PBXAggregateTarget "All" */;
 			buildPhases = (
-				326CAF7719AB72B700422AE7 /* ShellScript */,
+				326CB00819AB8DCF00422AE7 /* ShellScript */,
 			);
 			dependencies = (
 			);
-			name = Alltargets;
-			productName = Alltargets;
+			name = All;
+			productName = All;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		326CAF4419AB71DF00422AE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CAF4319AB71DF00422AE7 /* Foundation.framework */; };
-		326CAF4919AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 326CAF4819AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.h */; };
-		326CAF4B19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CAF4A19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.m */; };
-		326CAF5219AB71DF00422AE7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CAF5119AB71DF00422AE7 /* XCTest.framework */; };
-		326CAF5319AB71DF00422AE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CAF4319AB71DF00422AE7 /* Foundation.framework */; };
-		326CAF5519AB71DF00422AE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CAF5419AB71DF00422AE7 /* UIKit.framework */; };
-		326CAF5819AB71DF00422AE7 /* libJVFloatLabeledTextFieldLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CAF4019AB71DF00422AE7 /* libJVFloatLabeledTextFieldLib.a */; };
-		326CAF5E19AB71DF00422AE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 326CAF5C19AB71DF00422AE7 /* InfoPlist.strings */; };
-		326CAF6019AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CAF5F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.m */; };
-		326CAF7019AB71FB00422AE7 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CAF6B19AB71FB00422AE7 /* JVFloatLabeledTextField.m */; };
-		326CAF7119AB71FB00422AE7 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CAF6D19AB71FB00422AE7 /* JVFloatLabeledTextView.m */; };
-		326CAF7219AB71FB00422AE7 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CAF6F19AB71FB00422AE7 /* NSString+TextDirectionality.m */; };
+		326CAFD519AB8DA600422AE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CAFD419AB8DA600422AE7 /* Foundation.framework */; };
+		326CAFDA19AB8DA600422AE7 /* JVFloatLabeledTextFieldLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 326CAFD919AB8DA600422AE7 /* JVFloatLabeledTextFieldLib.h */; };
+		326CAFDC19AB8DA600422AE7 /* JVFloatLabeledTextFieldLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CAFDB19AB8DA600422AE7 /* JVFloatLabeledTextFieldLib.m */; };
+		326CAFE319AB8DA700422AE7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CAFE219AB8DA700422AE7 /* XCTest.framework */; };
+		326CAFE419AB8DA700422AE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CAFD419AB8DA600422AE7 /* Foundation.framework */; };
+		326CAFE619AB8DA700422AE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CAFE519AB8DA700422AE7 /* UIKit.framework */; };
+		326CAFE919AB8DA700422AE7 /* libJVFloatLabeledTextFieldLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CAFD119AB8DA600422AE7 /* libJVFloatLabeledTextFieldLib.a */; };
+		326CAFEF19AB8DA700422AE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 326CAFED19AB8DA700422AE7 /* InfoPlist.strings */; };
+		326CAFF119AB8DA700422AE7 /* JVFloatLabeledTextFieldLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CAFF019AB8DA700422AE7 /* JVFloatLabeledTextFieldLibTests.m */; };
+		326CB00119AB8DC000422AE7 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CAFFC19AB8DC000422AE7 /* JVFloatLabeledTextField.m */; };
+		326CB00219AB8DC000422AE7 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CAFFE19AB8DC000422AE7 /* JVFloatLabeledTextView.m */; };
+		326CB00319AB8DC000422AE7 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CB00019AB8DC000422AE7 /* NSString+TextDirectionality.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		326CAF5619AB71DF00422AE7 /* PBXContainerItemProxy */ = {
+		326CAFE719AB8DA700422AE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 326CAF3819AB71DF00422AE7 /* Project object */;
+			containerPortal = 326CAFC919AB8DA600422AE7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 326CAF3F19AB71DF00422AE7;
+			remoteGlobalIDString = 326CAFD019AB8DA600422AE7;
 			remoteInfo = JVFloatLabeledTextFieldLib;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		326CAF3E19AB71DF00422AE7 /* CopyFiles */ = {
+		326CAFCF19AB8DA600422AE7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				326CAF4919AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.h in CopyFiles */,
+				326CAFDA19AB8DA600422AE7 /* JVFloatLabeledTextFieldLib.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		326CAF4019AB71DF00422AE7 /* libJVFloatLabeledTextFieldLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJVFloatLabeledTextFieldLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		326CAF4319AB71DF00422AE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		326CAF4719AB71DF00422AE7 /* JVFloatLabeledTextFieldLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextFieldLib-Prefix.pch"; sourceTree = "<group>"; };
-		326CAF4819AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextFieldLib.h; sourceTree = "<group>"; };
-		326CAF4A19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextFieldLib.m; sourceTree = "<group>"; };
-		326CAF5019AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVFloatLabeledTextFieldLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		326CAF5119AB71DF00422AE7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		326CAF5419AB71DF00422AE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		326CAF5B19AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JVFloatLabeledTextFieldLibTests-Info.plist"; sourceTree = "<group>"; };
-		326CAF5D19AB71DF00422AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		326CAF5F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextFieldLibTests.m; sourceTree = "<group>"; };
-		326CAF6A19AB71FB00422AE7 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
-		326CAF6B19AB71FB00422AE7 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
-		326CAF6C19AB71FB00422AE7 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
-		326CAF6D19AB71FB00422AE7 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextView.m; sourceTree = "<group>"; };
-		326CAF6E19AB71FB00422AE7 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
-		326CAF6F19AB71FB00422AE7 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		326CAFD119AB8DA600422AE7 /* libJVFloatLabeledTextFieldLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJVFloatLabeledTextFieldLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		326CAFD419AB8DA600422AE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		326CAFD819AB8DA600422AE7 /* JVFloatLabeledTextFieldLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextFieldLib-Prefix.pch"; sourceTree = "<group>"; };
+		326CAFD919AB8DA600422AE7 /* JVFloatLabeledTextFieldLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextFieldLib.h; sourceTree = "<group>"; };
+		326CAFDB19AB8DA600422AE7 /* JVFloatLabeledTextFieldLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextFieldLib.m; sourceTree = "<group>"; };
+		326CAFE119AB8DA700422AE7 /* JVFloatLabeledTextFieldLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVFloatLabeledTextFieldLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		326CAFE219AB8DA700422AE7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		326CAFE519AB8DA700422AE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		326CAFEC19AB8DA700422AE7 /* JVFloatLabeledTextFieldLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JVFloatLabeledTextFieldLibTests-Info.plist"; sourceTree = "<group>"; };
+		326CAFEE19AB8DA700422AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		326CAFF019AB8DA700422AE7 /* JVFloatLabeledTextFieldLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextFieldLibTests.m; sourceTree = "<group>"; };
+		326CAFFB19AB8DC000422AE7 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		326CAFFC19AB8DC000422AE7 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		326CAFFD19AB8DC000422AE7 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		326CAFFE19AB8DC000422AE7 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		326CAFFF19AB8DC000422AE7 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		326CB00019AB8DC000422AE7 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		326CAF3D19AB71DF00422AE7 /* Frameworks */ = {
+		326CAFCE19AB8DA600422AE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326CAF4419AB71DF00422AE7 /* Foundation.framework in Frameworks */,
+				326CAFD519AB8DA600422AE7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		326CAF4D19AB71DF00422AE7 /* Frameworks */ = {
+		326CAFDE19AB8DA700422AE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326CAF5819AB71DF00422AE7 /* libJVFloatLabeledTextFieldLib.a in Frameworks */,
-				326CAF5219AB71DF00422AE7 /* XCTest.framework in Frameworks */,
-				326CAF5519AB71DF00422AE7 /* UIKit.framework in Frameworks */,
-				326CAF5319AB71DF00422AE7 /* Foundation.framework in Frameworks */,
+				326CAFE919AB8DA700422AE7 /* libJVFloatLabeledTextFieldLib.a in Frameworks */,
+				326CAFE319AB8DA700422AE7 /* XCTest.framework in Frameworks */,
+				326CAFE619AB8DA700422AE7 /* UIKit.framework in Frameworks */,
+				326CAFE419AB8DA700422AE7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		326CAF3719AB71DF00422AE7 = {
+		326CAFC819AB8DA600422AE7 = {
 			isa = PBXGroup;
 			children = (
-				326CAF6919AB71FB00422AE7 /* JVFloatLabeledTextField */,
-				326CAF4519AB71DF00422AE7 /* JVFloatLabeledTextFieldLib */,
-				326CAF5919AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests */,
-				326CAF4219AB71DF00422AE7 /* Frameworks */,
-				326CAF4119AB71DF00422AE7 /* Products */,
+				326CAFFA19AB8DC000422AE7 /* JVFloatLabeledTextField */,
+				326CAFD619AB8DA600422AE7 /* JVFloatLabeledTextFieldLib */,
+				326CAFEA19AB8DA700422AE7 /* JVFloatLabeledTextFieldLibTests */,
+				326CAFD319AB8DA600422AE7 /* Frameworks */,
+				326CAFD219AB8DA600422AE7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		326CAF4119AB71DF00422AE7 /* Products */ = {
+		326CAFD219AB8DA600422AE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				326CAF4019AB71DF00422AE7 /* libJVFloatLabeledTextFieldLib.a */,
-				326CAF5019AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.xctest */,
+				326CAFD119AB8DA600422AE7 /* libJVFloatLabeledTextFieldLib.a */,
+				326CAFE119AB8DA700422AE7 /* JVFloatLabeledTextFieldLibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		326CAF4219AB71DF00422AE7 /* Frameworks */ = {
+		326CAFD319AB8DA600422AE7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				326CAF4319AB71DF00422AE7 /* Foundation.framework */,
-				326CAF5119AB71DF00422AE7 /* XCTest.framework */,
-				326CAF5419AB71DF00422AE7 /* UIKit.framework */,
+				326CAFD419AB8DA600422AE7 /* Foundation.framework */,
+				326CAFE219AB8DA700422AE7 /* XCTest.framework */,
+				326CAFE519AB8DA700422AE7 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		326CAF4519AB71DF00422AE7 /* JVFloatLabeledTextFieldLib */ = {
+		326CAFD619AB8DA600422AE7 /* JVFloatLabeledTextFieldLib */ = {
 			isa = PBXGroup;
 			children = (
-				326CAF4819AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.h */,
-				326CAF4A19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.m */,
-				326CAF4619AB71DF00422AE7 /* Supporting Files */,
+				326CAFD919AB8DA600422AE7 /* JVFloatLabeledTextFieldLib.h */,
+				326CAFDB19AB8DA600422AE7 /* JVFloatLabeledTextFieldLib.m */,
+				326CAFD719AB8DA600422AE7 /* Supporting Files */,
 			);
 			path = JVFloatLabeledTextFieldLib;
 			sourceTree = "<group>";
 		};
-		326CAF4619AB71DF00422AE7 /* Supporting Files */ = {
+		326CAFD719AB8DA600422AE7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				326CAF4719AB71DF00422AE7 /* JVFloatLabeledTextFieldLib-Prefix.pch */,
+				326CAFD819AB8DA600422AE7 /* JVFloatLabeledTextFieldLib-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		326CAF5919AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests */ = {
+		326CAFEA19AB8DA700422AE7 /* JVFloatLabeledTextFieldLibTests */ = {
 			isa = PBXGroup;
 			children = (
-				326CAF5F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.m */,
-				326CAF5A19AB71DF00422AE7 /* Supporting Files */,
+				326CAFF019AB8DA700422AE7 /* JVFloatLabeledTextFieldLibTests.m */,
+				326CAFEB19AB8DA700422AE7 /* Supporting Files */,
 			);
 			path = JVFloatLabeledTextFieldLibTests;
 			sourceTree = "<group>";
 		};
-		326CAF5A19AB71DF00422AE7 /* Supporting Files */ = {
+		326CAFEB19AB8DA700422AE7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				326CAF5B19AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests-Info.plist */,
-				326CAF5C19AB71DF00422AE7 /* InfoPlist.strings */,
+				326CAFEC19AB8DA700422AE7 /* JVFloatLabeledTextFieldLibTests-Info.plist */,
+				326CAFED19AB8DA700422AE7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		326CAF6919AB71FB00422AE7 /* JVFloatLabeledTextField */ = {
+		326CAFFA19AB8DC000422AE7 /* JVFloatLabeledTextField */ = {
 			isa = PBXGroup;
 			children = (
-				326CAF6A19AB71FB00422AE7 /* JVFloatLabeledTextField.h */,
-				326CAF6B19AB71FB00422AE7 /* JVFloatLabeledTextField.m */,
-				326CAF6C19AB71FB00422AE7 /* JVFloatLabeledTextView.h */,
-				326CAF6D19AB71FB00422AE7 /* JVFloatLabeledTextView.m */,
-				326CAF6E19AB71FB00422AE7 /* NSString+TextDirectionality.h */,
-				326CAF6F19AB71FB00422AE7 /* NSString+TextDirectionality.m */,
+				326CAFFB19AB8DC000422AE7 /* JVFloatLabeledTextField.h */,
+				326CAFFC19AB8DC000422AE7 /* JVFloatLabeledTextField.m */,
+				326CAFFD19AB8DC000422AE7 /* JVFloatLabeledTextView.h */,
+				326CAFFE19AB8DC000422AE7 /* JVFloatLabeledTextView.m */,
+				326CAFFF19AB8DC000422AE7 /* NSString+TextDirectionality.h */,
+				326CB00019AB8DC000422AE7 /* NSString+TextDirectionality.m */,
 			);
 			path = JVFloatLabeledTextField;
 			sourceTree = "<group>";
@@ -183,13 +183,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		326CAF3F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib */ = {
+		326CAFD019AB8DA600422AE7 /* JVFloatLabeledTextFieldLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 326CAF6319AB71DF00422AE7 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLib" */;
+			buildConfigurationList = 326CAFF419AB8DA700422AE7 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLib" */;
 			buildPhases = (
-				326CAF3C19AB71DF00422AE7 /* Sources */,
-				326CAF3D19AB71DF00422AE7 /* Frameworks */,
-				326CAF3E19AB71DF00422AE7 /* CopyFiles */,
+				326CAFCD19AB8DA600422AE7 /* Sources */,
+				326CAFCE19AB8DA600422AE7 /* Frameworks */,
+				326CAFCF19AB8DA600422AE7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -197,68 +197,68 @@
 			);
 			name = JVFloatLabeledTextFieldLib;
 			productName = JVFloatLabeledTextFieldLib;
-			productReference = 326CAF4019AB71DF00422AE7 /* libJVFloatLabeledTextFieldLib.a */;
+			productReference = 326CAFD119AB8DA600422AE7 /* libJVFloatLabeledTextFieldLib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		326CAF4F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests */ = {
+		326CAFE019AB8DA700422AE7 /* JVFloatLabeledTextFieldLibTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 326CAF6619AB71DF00422AE7 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLibTests" */;
+			buildConfigurationList = 326CAFF719AB8DA700422AE7 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLibTests" */;
 			buildPhases = (
-				326CAF4C19AB71DF00422AE7 /* Sources */,
-				326CAF4D19AB71DF00422AE7 /* Frameworks */,
-				326CAF4E19AB71DF00422AE7 /* Resources */,
+				326CAFDD19AB8DA700422AE7 /* Sources */,
+				326CAFDE19AB8DA700422AE7 /* Frameworks */,
+				326CAFDF19AB8DA700422AE7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				326CAF5719AB71DF00422AE7 /* PBXTargetDependency */,
+				326CAFE819AB8DA700422AE7 /* PBXTargetDependency */,
 			);
 			name = JVFloatLabeledTextFieldLibTests;
 			productName = JVFloatLabeledTextFieldLibTests;
-			productReference = 326CAF5019AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.xctest */;
+			productReference = 326CAFE119AB8DA700422AE7 /* JVFloatLabeledTextFieldLibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		326CAF3819AB71DF00422AE7 /* Project object */ = {
+		326CAFC919AB8DA600422AE7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Cambridge Yang";
 			};
-			buildConfigurationList = 326CAF3B19AB71DF00422AE7 /* Build configuration list for PBXProject "JVFloatLabeledTextFieldLib" */;
+			buildConfigurationList = 326CAFCC19AB8DA600422AE7 /* Build configuration list for PBXProject "JVFloatLabeledTextFieldLib" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 326CAF3719AB71DF00422AE7;
-			productRefGroup = 326CAF4119AB71DF00422AE7 /* Products */;
+			mainGroup = 326CAFC819AB8DA600422AE7;
+			productRefGroup = 326CAFD219AB8DA600422AE7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				326CAF3F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib */,
-				326CAF4F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests */,
-				326CAF7319AB72AB00422AE7 /* Alltargets */,
+				326CAFD019AB8DA600422AE7 /* JVFloatLabeledTextFieldLib */,
+				326CAFE019AB8DA700422AE7 /* JVFloatLabeledTextFieldLibTests */,
+				326CB00419AB8DCB00422AE7 /* All */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		326CAF4E19AB71DF00422AE7 /* Resources */ = {
+		326CAFDF19AB8DA700422AE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326CAF5E19AB71DF00422AE7 /* InfoPlist.strings in Resources */,
+				326CAFEF19AB8DA700422AE7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		326CAF7719AB72B700422AE7 /* ShellScript */ = {
+		326CB00819AB8DCF00422AE7 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,40 +274,40 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		326CAF3C19AB71DF00422AE7 /* Sources */ = {
+		326CAFCD19AB8DA600422AE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326CAF7219AB71FB00422AE7 /* NSString+TextDirectionality.m in Sources */,
-				326CAF7119AB71FB00422AE7 /* JVFloatLabeledTextView.m in Sources */,
-				326CAF7019AB71FB00422AE7 /* JVFloatLabeledTextField.m in Sources */,
-				326CAF4B19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib.m in Sources */,
+				326CB00319AB8DC000422AE7 /* NSString+TextDirectionality.m in Sources */,
+				326CB00219AB8DC000422AE7 /* JVFloatLabeledTextView.m in Sources */,
+				326CB00119AB8DC000422AE7 /* JVFloatLabeledTextField.m in Sources */,
+				326CAFDC19AB8DA600422AE7 /* JVFloatLabeledTextFieldLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		326CAF4C19AB71DF00422AE7 /* Sources */ = {
+		326CAFDD19AB8DA700422AE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326CAF6019AB71DF00422AE7 /* JVFloatLabeledTextFieldLibTests.m in Sources */,
+				326CAFF119AB8DA700422AE7 /* JVFloatLabeledTextFieldLibTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		326CAF5719AB71DF00422AE7 /* PBXTargetDependency */ = {
+		326CAFE819AB8DA700422AE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 326CAF3F19AB71DF00422AE7 /* JVFloatLabeledTextFieldLib */;
-			targetProxy = 326CAF5619AB71DF00422AE7 /* PBXContainerItemProxy */;
+			target = 326CAFD019AB8DA600422AE7 /* JVFloatLabeledTextFieldLib */;
+			targetProxy = 326CAFE719AB8DA700422AE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		326CAF5C19AB71DF00422AE7 /* InfoPlist.strings */ = {
+		326CAFED19AB8DA700422AE7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				326CAF5D19AB71DF00422AE7 /* en */,
+				326CAFEE19AB8DA700422AE7 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -315,7 +315,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		326CAF6119AB71DF00422AE7 /* Debug */ = {
+		326CAFF219AB8DA700422AE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -352,7 +352,7 @@
 			};
 			name = Debug;
 		};
-		326CAF6219AB71DF00422AE7 /* Release */ = {
+		326CAFF319AB8DA700422AE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -383,7 +383,7 @@
 			};
 			name = Release;
 		};
-		326CAF6419AB71DF00422AE7 /* Debug */ = {
+		326CAFF519AB8DA700422AE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/JVFloatLabeledTextFieldLib.dst;
@@ -395,7 +395,7 @@
 			};
 			name = Debug;
 		};
-		326CAF6519AB71DF00422AE7 /* Release */ = {
+		326CAFF619AB8DA700422AE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/JVFloatLabeledTextFieldLib.dst;
@@ -407,7 +407,7 @@
 			};
 			name = Release;
 		};
-		326CAF6719AB71DF00422AE7 /* Debug */ = {
+		326CAFF819AB8DA700422AE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -427,7 +427,7 @@
 			};
 			name = Debug;
 		};
-		326CAF6819AB71DF00422AE7 /* Release */ = {
+		326CAFF919AB8DA700422AE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -443,14 +443,14 @@
 			};
 			name = Release;
 		};
-		326CAF7519AB72AB00422AE7 /* Debug */ = {
+		326CB00619AB8DCB00422AE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		326CAF7619AB72AB00422AE7 /* Release */ = {
+		326CB00719AB8DCB00422AE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -460,40 +460,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		326CAF3B19AB71DF00422AE7 /* Build configuration list for PBXProject "JVFloatLabeledTextFieldLib" */ = {
+		326CAFCC19AB8DA600422AE7 /* Build configuration list for PBXProject "JVFloatLabeledTextFieldLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				326CAF6119AB71DF00422AE7 /* Debug */,
-				326CAF6219AB71DF00422AE7 /* Release */,
+				326CAFF219AB8DA700422AE7 /* Debug */,
+				326CAFF319AB8DA700422AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		326CAF6319AB71DF00422AE7 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLib" */ = {
+		326CAFF419AB8DA700422AE7 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				326CAF6419AB71DF00422AE7 /* Debug */,
-				326CAF6519AB71DF00422AE7 /* Release */,
+				326CAFF519AB8DA700422AE7 /* Debug */,
+				326CAFF619AB8DA700422AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		326CAF6619AB71DF00422AE7 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLibTests" */ = {
+		326CAFF719AB8DA700422AE7 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextFieldLibTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				326CAF6719AB71DF00422AE7 /* Debug */,
-				326CAF6819AB71DF00422AE7 /* Release */,
+				326CAFF819AB8DA700422AE7 /* Debug */,
+				326CAFF919AB8DA700422AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		326CAF7419AB72AB00422AE7 /* Build configuration list for PBXAggregateTarget "Alltargets" */ = {
+		326CB00519AB8DCB00422AE7 /* Build configuration list for PBXAggregateTarget "All" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				326CAF7519AB72AB00422AE7 /* Debug */,
-				326CAF7619AB72AB00422AE7 /* Release */,
+				326CB00619AB8DCB00422AE7 /* Debug */,
+				326CB00719AB8DCB00422AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 326CAF3819AB71DF00422AE7 /* Project object */;
+	rootObject = 326CAFC919AB8DA600422AE7 /* Project object */;
 }

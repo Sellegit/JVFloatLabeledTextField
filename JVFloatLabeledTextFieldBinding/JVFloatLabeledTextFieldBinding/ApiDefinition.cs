@@ -57,6 +57,9 @@ namespace JVFloatLabeledTextFieldBinding {
 		[Export ("floatingLabelActiveTextColor", ArgumentSemantic.Retain)]
 		UIColor FloatingLabelActiveTextColor { get; set; }
 
+		[Export ("autoHidesFLoatLabelWhenOverlaps")]
+		int AutoHidesFLoatLabelWhenOverlaps { get; set; }
+
 		[Export ("animateEvenIfNotFirstResponder")]
 		int AnimateEvenIfNotFirstResponder { get; set; }
 

@@ -46,6 +46,8 @@
 
 - (void)commonInit
 {
+    self.delegate = self;
+    
     self.startingTextContainerInsetTop = self.textContainerInset.top;
     
     _placeholderLabel = [UILabel new];
@@ -115,6 +117,13 @@
 
     _floatingLabel.text = floatingTitle;
     [_floatingLabel sizeToFit];
+    
+    if (self.autoHidesFLoatLabelWhenOverlaps) {
+        _floatingLabel.frame = CGRectMake(_floatingLabel.frame.origin.x,
+                                          _floatingLabel.frame.origin.y,
+                                          self.frame.size.width,
+                                          _floatingLabel.frame.size.height);
+    }
 }
 
 - (void)layoutSubviews
@@ -136,13 +145,18 @@
     BOOL firstResponder = self.isFirstResponder;
     
     UIColor* color = (firstResponder && self.text && self.text.length > 0 ? self.getLabelActiveColor : self.floatingLabelTextColor);
-    
     [UIView transitionWithView:_floatingLabel duration:0.4f options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
         _floatingLabel.textColor = color;
     } completion:nil];
-
+    
     if (!self.text || 0 == [self.text length]) {
+        [self setContentOffset:CGPointZero animated:NO];
         [self hideFloatingLabel:firstResponder];
+    }
+    else if(self.autoHidesFLoatLabelWhenOverlaps && self.contentOffset.y > _floatingLabel.font.lineHeight){
+        _floatingLabel.frame = CGRectMake(_floatingLabel.frame.origin.x, _floatingLabelYPadding.floatValue + self.contentOffset.y,_floatingLabel.frame.size.width,_floatingLabel.frame.size.height);
+        [self performSelector:@selector(hideFloatingLabel:) withObject:nil afterDelay:(0.2f)];
+        [self hideFloatingLabel:YES];
     }
     else {
         [self showFloatingLabel:firstResponder];
@@ -164,18 +178,24 @@
 {
     void (^showBlock)() = ^{
         _floatingLabel.alpha = 1.0f;
+        CGFloat top = _floatingLabelYPadding.floatValue;
+        if (self.autoHidesFLoatLabelWhenOverlaps) {
+            top += self.contentOffset.y;
+        }
         _floatingLabel.frame = CGRectMake(_floatingLabel.frame.origin.x,
-                                          2.0f,
+                                          top,
                                           _floatingLabel.frame.size.width,
                                           _floatingLabel.frame.size.height);
     };
     
-    if (animated || _animateEvenIfNotFirstResponder) {
+    if ((animated || _animateEvenIfNotFirstResponder)
+        && (!self.autoHidesFLoatLabelWhenOverlaps || _floatingLabel.alpha != 1.0f)) {
         [UIView animateWithDuration:_floatingLabelShowAnimationDuration
                               delay:0.0f
-                            options:UIViewAnimationOptionBeginFromCurrentState|UIViewAnimationOptionCurveEaseOut
+                            options:UIViewAnimationOptionBeginFromCurrentState | UIViewAnimationOptionCurveEaseOut
                          animations:showBlock
-                         completion:nil];
+                         completion:nil
+                         ];
     }
     else {
         showBlock();
