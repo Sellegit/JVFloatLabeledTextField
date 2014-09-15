@@ -155,7 +155,7 @@
     }
     else if(self.autoHidesFLoatLabelWhenOverlaps && self.contentOffset.y > _floatingLabel.font.lineHeight){
         _floatingLabel.frame = CGRectMake(_floatingLabel.frame.origin.x, _floatingLabelYPadding.floatValue + self.contentOffset.y,_floatingLabel.frame.size.width,_floatingLabel.frame.size.height);
-        [self performSelector:@selector(hideFloatingLabel:) withObject:nil afterDelay:(0.2f)];
+        //[self performSelector:@selector(hideFloatingLabel:) withObject:[NSNumber numberWithBool:YES] afterDelay:(0.01f)];
         [self hideFloatingLabel:YES];
     }
     else {
