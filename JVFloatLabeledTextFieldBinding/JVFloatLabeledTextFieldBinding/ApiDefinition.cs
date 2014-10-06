@@ -11,6 +11,9 @@ namespace JVFloatLabeledTextFieldBinding {
 		[Export ("floatingLabel", ArgumentSemantic.Retain)]
 		UILabel FloatingLabel { get; }
 
+//    [Export ("placeholderTextColor", ArgumentSemantic.Retain)]
+//    UIColor PlaceholderTextColor { get; set; }
+
 		[Export ("floatingLabelYPadding", ArgumentSemantic.Retain)]
 		NSNumber FloatingLabelYPadding { get; set; }
 

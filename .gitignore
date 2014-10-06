@@ -17,6 +17,7 @@ JVFloatLabeledTextFieldLib/build
 xcuserdata
 profile
 *.moved-aside
+.DS_Store
 
 # CocoaPods
 #
@@ -43,7 +44,7 @@ x64/
 *.ilk
 *.meta
 *.obj
-*.pch
+#*.pch
 *.pdb
 *.pgc
 *.pgd

@@ -14,7 +14,7 @@
 
 @interface JVFloatLabeledTextView ()
 
-@property (nonatomic, strong, readonly) UILabel * placeholderLabel;
+
 @property (nonatomic) CGFloat startingTextContainerInsetTop;
 
 @end

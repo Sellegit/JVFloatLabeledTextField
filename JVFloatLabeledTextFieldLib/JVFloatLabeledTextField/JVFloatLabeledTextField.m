@@ -42,7 +42,12 @@
     return self;
 }
 
-- (id)initWithCoder:(NSCoder *)aDecoder 
+//- (void) drawPlaceholderInRect:(CGRect)rect {
+//    [self.placeholderTextColor setFill];
+//    [[self placeholder] drawInRect:rect withFont:_floatingLabel.font lineBreakMode:UILineBreakModeTailTruncation alignment:self.textAlignment];
+//}
+
+- (id)initWithCoder:(NSCoder *)aDecoder
 {
     self = [super initWithCoder:aDecoder];
     if (self) {
@@ -65,6 +70,7 @@
     // some basic default fonts/colors
     _floatingLabel.font = [UIFont boldSystemFontOfSize:12.0f];
     _floatingLabelTextColor = [UIColor grayColor];
+//    _placeholderTextColor = [UIColor grayColor];
     _animateEvenIfNotFirstResponder = NO;
     _floatingLabelShowAnimationDuration = kFloatingLabelShowAnimationDuration;
     _floatingLabelHideAnimationDuration = kFloatingLabelHideAnimationDuration;

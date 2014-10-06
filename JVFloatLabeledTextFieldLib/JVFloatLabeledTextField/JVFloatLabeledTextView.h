@@ -13,6 +13,7 @@
 @property (nonatomic, copy) NSString * placeholder;
 
 @property (nonatomic, strong, readonly) UILabel * floatingLabel;
+@property (nonatomic, strong, readonly) UILabel * placeholderLabel;
 @property (nonatomic, strong) NSNumber * floatingLabelYPadding UI_APPEARANCE_SELECTOR;
 @property (nonatomic, strong) UIFont * floatingLabelFont UI_APPEARANCE_SELECTOR;
 @property (nonatomic, strong) UIColor * floatingLabelTextColor UI_APPEARANCE_SELECTOR;
